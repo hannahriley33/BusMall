@@ -1,4 +1,4 @@
-const productArray = [
+export const productArray = [
    {
     id: 'r2d2-bag',
     name: 'R2D2 Luggage',
@@ -20,7 +20,7 @@ const productArray = [
    {
        id: 'boots',
        name: 'Boots',
-       image: '../assets/boots.jpg'
+       image: '../assets/boots.jpg',
        description: 'Boots that protect your whole foot excluding your toes.'
    },
    {
@@ -31,32 +31,32 @@ const productArray = [
    },
    {
        id: 'bubblegum',
-       name: 'Bubblegum'
-       image: '../assets/bubblegum.jpg'
+       name: 'Bubblegum',
+       image: '../assets/bubblegum.jpg',
        description: 'Meatball flavored bubble gum.'
    },
    {
        id: 'chair',
        name: 'Chair',
-       image: '../assets/chair.jpg'
+       image: '../assets/chair.jpg',
        description: 'Inverted chair.'
    },
    {
        id: 'action-figure',
        name: 'Action Figure',
-       image: '../assets/cthulhu.jpg'
+       image: '../assets/cthulhu.jpg',
        description: 'An action figure inspired by the late Davey Jones.'
    },
    {
        id: 'dog-duck',
        name: 'Dog Duck',
-       image: '../assets/dog-duck.jpg'
+       image: '../assets/dog-duck.jpg',
        description: 'Give your dog a duck beak for this Halloween.'
    },
    {
        id: 'dragon',
        name: 'Dragon Meat',
-       image: '../assets/dragon.jpg'
+       image: '../assets/dragon.jpg',
        description: 'Canned dragon meat to last you through the upcoming apocalypse.'
    },
    {
@@ -68,49 +68,49 @@ const productArray = [
    {
        id: 'pet-sweep',
        name: 'Pet Sweep',
-       image: '../assets/pet-sweep.jpg'
-       description: 'Brooms for your dog's paws.'
+       image: '../assets/pet-sweep.jpg',
+       description: 'Brooms for your dog\'s paws.'
    },
    {
        id: 'scissors',
        name: 'Scissors',
-       image: '../assets/scissors.jpg'
-       description: 'Scissors that are made for cutting pizza!'
+       image: '../assets/scissors.jpg',
+       description: 'Scissors that are made for cutting pizza!',
    },
    {
        id: 'shark',
        name: 'Shark',
-       image: '../assets/shark.jpg'
+       image: '../assets/shark.jpg',
        description: 'Shark sleeping bag.'
    },
    {
        id: 'baby-sweep',
        name: 'Baby Sweep',
-       image: '../assets/sweep.png'
+       image: '../assets/sweep.png',
        description: 'Baby onesie that sweeps as they crawl around.'
    },
    {
        id: 'tauntaun',
        name: 'Tauntaun',
-       image: '../assets/tauntaun.jpg'
+       image: '../assets/tauntaun.jpg',
        description: 'Tauntaun sleeping bag.'
    },
    {
        id: 'usb',
        name: 'USB',
-       image: '../assets/usb.gif'
-       description: 'Octopus USB port.'
+       image: '../assets/usb.gif',
+       description: 'Octopus USB port.',
    },
    {
        id: 'water-can',
        name: 'Water Can',
-       image: '../assets/water-can.jpg'
-       description: 'A watering can that is never empty.'
+       image: '../assets/water-can.jpg',
+       description: 'A watering can that is never empty.',
    },
    {
        id: 'wine-glass',
        name: 'Wine Glass',
-       image: '../assets/wine-glass.jpg'
-       description: 'A wine glass that is guaranteed to cause spill stains.'
+       image: '../assets/wine-glass.jpg',
+       description: 'A wine glass that is guaranteed to cause spill stains.',
    },
 ];
