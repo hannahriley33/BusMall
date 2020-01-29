@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <title>BusMall</title>
 </head>
 
 <body>
@@ -18,26 +18,23 @@
             <p> Welcome to BusMall. Please take our quiz.</p>
         </div>
         <form id="quiz-section"> 
-            <div id="choice1">
-                <img src="assets/bag.jpg" width="100px" height="100px">
-                <input type="radio" name="userChoice"> 
-                <span>Select</span>
-            </div>
-            
-            <div>
-                <img src="assets/banana.jpg" width="100px" height="100px">
-                <input type="radio" name="userChoice"> 
-                <span>Select</span>
-            </div>
 
-            <div>
-            <img src="assets/banana.jpg" width="100px" height="100px">
-            <input type="radio" name="userChoice"> 
-            <span>Select</span>
-            </div>
+            <label id="option1Group">
+            <input id="option1" type="radio" name="product">    
+               <img id="option1Image" height="150px" width="150px">
+            </label> 
+            <label id="option2Group">
+                <input id="option2" type="radio" name="product">
+                <img id="option2Image" height="150px" width="150px">
+            </label>
 
+            <label id="option3Group">
+                <input id="option3" type="radio" name="product">
+                <img id="option3Image" height="150px" width="150px">
+            </label>
+            <button id="submitButton" type="submit">Submit</button>
         </form>
-        <button>Next</button>
+        
     </main>
     <script type="module" src="app.js"></script>
 </body>

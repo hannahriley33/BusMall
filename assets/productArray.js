@@ -114,3 +114,5 @@ export const productArray = [
        description: 'A wine glass that is guaranteed to cause spill stains.',
    },
 ];
+
+export const productsData = productArray.slice();
