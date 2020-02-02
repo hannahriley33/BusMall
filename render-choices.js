@@ -34,37 +34,19 @@ export function getRandomProduct(productArray) {
     return randomProduct;
 };
 
+export function findById(items, id) {
+    for (let i = 0; i < items.length; i++) {
+        const item = items[i];
+        if (item.id === id) {
+            return i;
+
+        }}};
 
 
 
 
 
-// // get random product
-// export const getRandomProduct = () => {
-//     let randomProduct = Math.floor(Math.random() * productArray.length);
-//     let randomProduct2 = Math.floor(Math.random() * productArray.length);
-//     let randomProduct3 = Math.floor(Math.random() * productArray.length);
-
-//     return randomProduct;
-//     return randomProduct2;
-//     return randomProduct3;
-// }
-
-
-// //get 3 random different products
-// export const initializeNewQuizQs = (productArray) => {
-
-//     while (randomProduct.id === randomProduct2.id) {
-//         randomProduct2 = getRandomProduct();
-//     };
-
-//     while (randomProduct2.id === randomProduct3.id) {
-//         randomProduct3 = getRandomProduct();
-//     };
-    
-//     while (random.id === randomProduct3.id) {
-//         randomProduct = getRandomProduct();    }
-// };
+// 
 
 
 
