@@ -1,6 +1,7 @@
 import { productArray, productsData } from './assets/productArray.js';
 import { getRandomProduct, findById } from './render-choices.js';
 
+
 const productRadioSelection = document.querySelector('input');
 
 //set initial state
@@ -21,6 +22,7 @@ const initializeState = () => {
         let object = {
             id: product.id,
             quantity: 0,
+            name: product.name,
         }
         cartVotes.push(object);
     })  
@@ -107,10 +109,13 @@ formUserInput.addEventListener('submit', (e) => {
     else if (radioOption3.checked) {
         selectedProductId = radioOption3.value;
     }
-const theSelectedIndex= findById(cartVotes, selectedProductId);
+    const theSelectedIndex= findById(cartVotes, selectedProductId);
 
-const theSelectedProduct = cartVotes[theSelectedIndex];
-theSelectedProduct.quantity++
+    const theSelectedProduct = cartVotes[theSelectedIndex];
+    theSelectedProduct.quantity++
+
+    
+    
 
 
 // console.log(theSelectedProduct);
