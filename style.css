@@ -1,0 +1,10 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    background-color: grey;
+}
+
+button {
+    background-color: whitesmoke;
+}
